@@ -1,7 +1,5 @@
 package queues;
 
-import java.util.*;
-
 /*
  * Program to reverse a Queue using recursion
  */
