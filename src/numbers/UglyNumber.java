@@ -7,6 +7,7 @@ import java.util.*;
  * whose only prime factors are 2,3 and 5
  */
 public class UglyNumber {
+	
 	//Function to find the minimum of 3 numbers:
 	static int min(int a, int b, int c)
 	{
