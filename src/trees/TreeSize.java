@@ -37,7 +37,6 @@ public class TreeSize {
 		//Level 4:
 		root.right.right.right.left = new Node(10);
 		
-		//Deleting all Nodes:
 		int size = treeSize(root);
 		
 		//Displaying the height:
