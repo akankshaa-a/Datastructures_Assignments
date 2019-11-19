@@ -40,7 +40,6 @@ public class TreeHeight {
 		//Level 4:
 		root.right.right.right.left = new Node(10);
 		
-		//Deleting all Nodes:
 		int height = treeHeight(root);
 		
 		//Displaying the height:
