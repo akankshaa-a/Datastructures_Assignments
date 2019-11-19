@@ -9,14 +9,14 @@ public class DeleteAllNodes {
 	static int count = 0;
 	
 	//Function to delete all the nodes of a Binary Tree
-	static Node DeleteAllNodes(Node node)
+	static Node deleteAllNodes(Node node)
 	{
 		if(node!=null)
 		{
 			if(node.left!=null)
-				node.left = DeleteAllNodes(node.left);
+				node.left = deleteAllNodes(node.left);
 			if(node.right!=null)
-				node.right = DeleteAllNodes(node.right);
+				node.right = deleteAllNodes(node.right);
 		}
 		
 		count++;
@@ -43,7 +43,7 @@ public class DeleteAllNodes {
 		root.right.right.right = new Node(9);
 		
 		//Deleting all Nodes:
-		root = DeleteAllNodes(root);
+		root = deleteAllNodes(root);
 		
 		//Displaying the no. of nodes deleted:
 		System.out.println("No. of nodes deleted: "+count);
