@@ -5,7 +5,7 @@ public class Node {
 	int data;
 	Node left,right;
 	
-	//Parameterized constructor
+	//Parameterized constructor for the node
 	public Node(int d)
 	{
 		data = d;
