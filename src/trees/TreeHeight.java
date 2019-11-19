@@ -43,7 +43,7 @@ public class TreeHeight {
 		//Deleting all Nodes:
 		int height = treeHeight(root);
 		
-		//Displaying the no. of nodes deleted:
+		//Displaying the height:
 		System.out.println("Height of the tree: "+(height-1));
 	}
 }
