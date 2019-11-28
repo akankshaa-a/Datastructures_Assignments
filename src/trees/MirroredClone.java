@@ -65,7 +65,7 @@ public class MirroredClone {
 		lo.levelOrder(root);	//Displaying the original tree
 		
 		System.out.println("Cloned:");
-		lo.levelOrder(cloneRoot);	//Displayin the cloned tree
+		lo.levelOrder(cloneRoot);	//Displaying the cloned tree
 
 	}
 
